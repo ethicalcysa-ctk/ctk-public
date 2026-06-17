@@ -1,0 +1,936 @@
+/* ==================================================
+   CTK PREMIUM CERTIFICATE CSS
+   SIZE: 19cm × 26.7cm
+   PORTRAIT
+================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Cinzel:wght@400;600;700;800&family=Great+Vibes&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#dce4ee;
+
+    font-family:'Poppins',sans-serif;
+
+    padding:10px;
+}
+
+/* ===========================
+   CERTIFICATE SIZE
+=========================== */
+
+.certificate{
+
+    width:190mm;
+    height:267mm;
+
+    background:#fff;
+
+    margin:auto;
+
+    border:12px solid #0A2C63;
+
+    padding:7px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.15);
+
+    overflow:hidden;
+}
+
+/* ===========================
+   INNER BORDER
+=========================== */
+
+.inner{
+
+    width:100%;
+    height:100%;
+
+    border:4px solid #2FA8FF;
+
+    position:relative;
+
+    padding:18mm 14mm;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(
+    rgba(255,255,255,.97),
+    rgba(255,255,255,.97)
+    );
+}
+
+/* CORNERS */
+
+.inner:before{
+
+    content:"";
+
+    position:absolute;
+
+    top:10px;
+    left:10px;
+
+    width:45px;
+    height:45px;
+
+    border-top:8px solid #2FA8FF;
+    border-left:8px solid #2FA8FF;
+
+    border-radius:12px 0 0 0;
+}
+
+.inner:after{
+
+    content:"";
+
+    position:absolute;
+
+    top:10px;
+    right:10px;
+
+    width:45px;
+    height:45px;
+
+    border-top:8px solid #2FA8FF;
+    border-right:8px solid #2FA8FF;
+
+    border-radius:0 12px 0 0;
+}
+
+/* ===========================
+   TOP BAR
+=========================== */
+
+.top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+}
+
+.cert-id p{
+
+    font-size:11px;
+
+    color:#444;
+
+    font-weight:600;
+}
+
+.cert-id h4{
+
+    font-size:14px;
+
+    color:#0A2C63;
+
+    margin-top:5px;
+}
+
+.qr{
+
+    text-align:center;
+}
+
+.qr img{
+
+    width:75px;
+    height:75px;
+
+    object-fit:contain;
+}
+
+.qr span{
+
+    display:block;
+
+    font-size:11px;
+
+    margin-top:5px;
+
+    color:#333;
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo-box{
+
+    text-align:center;
+
+    margin-top:10px;
+}
+
+.logo{
+
+    width:110px;
+
+    height:110px;
+
+    object-fit:contain;
+}
+
+.logo-box h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:52px;
+
+    color:#0A2C63;
+
+    line-height:1;
+}
+
+.logo-box h2{
+
+    color:#1B9BFF;
+
+    font-size:18px;
+
+    font-weight:800;
+
+    margin-top:8px;
+}
+
+.logo-box p{
+
+    font-size:12px;
+
+    color:#555;
+
+    margin-top:5px;
+}
+
+.line{
+
+    width:120px;
+
+    height:2px;
+
+    background:#0A2C63;
+
+    margin:15px auto;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.title{
+
+    text-align:center;
+
+    margin-top:10px;
+}
+
+.title h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:62px;
+
+    color:#0A2C63;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+}
+
+.title h2{
+
+    color:#2B9EFF;
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+.title p{
+
+    color:#555;
+
+    font-size:17px;
+
+    margin-top:18px;
+}
+
+/* ===========================
+   NAME
+=========================== */
+
+.student-name{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:72px;
+
+    color:#C79417;
+
+    margin:18px 0;
+
+    line-height:1;
+}
+
+.gold-line{
+
+    width:380px;
+
+    height:2px;
+
+    background:#C79417;
+
+    margin:10px auto 18px;
+}
+
+/* ===========================
+   COURSE
+=========================== */
+
+.title h3{
+
+    color:#0A2C63;
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-top:12px;
+}
+
+.desc{
+
+    width:75%;
+
+    margin:12px auto;
+
+    color:#555;
+
+    font-size:15px;
+
+    line-height:1.7;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.cards{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:25px;
+}
+
+.card{
+
+    width:31%;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+}
+
+.icon{
+
+    width:52px;
+    height:52px;
+
+    border-radius:50%;
+
+    background:#2196F3;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:22px;
+
+    flex-shrink:0;
+}
+
+.card small{
+
+    font-size:11px;
+
+    color:#666;
+
+    font-weight:600;
+}
+
+.card h4{
+
+    color:#0A2C63;
+
+    font-size:17px;
+
+    margin-top:3px;
+}
+
+.green{
+
+    color:#16A34A !important;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    margin-top:22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.sign{
+
+    text-align:center;
+}
+
+.sign img{
+
+    width:110px;
+
+    height:40px;
+
+    object-fit:contain;
+}
+
+.sline{
+
+    width:120px;
+
+    border-top:2px solid #5078C5;
+
+    margin:0 auto 8px;
+}
+
+.sign h4{
+
+    color:#0A2C63;
+
+    font-size:16px;
+}
+
+.sign p{
+
+    color:#555;
+
+    font-size:13px;
+}
+
+/* ===========================
+   SEAL
+=========================== */
+
+.seal{
+
+    width:105px;
+    height:105px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(
+    circle,
+    #FFD970,
+    #C69012
+    );
+
+    border:5px solid #B67D00;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#222;
+
+    font-weight:800;
+
+    text-align:center;
+}
+
+.seal span{
+
+    font-size:28px;
+
+    line-height:1;
+}
+
+/* ===========================
+   VERIFY BOX
+=========================== */
+
+.verify{
+
+    width:78%;
+
+    margin:18px auto 0;
+
+    background:#EEF5FC;
+
+    border-radius:12px;
+
+    padding:16px;
+
+    text-align:center;
+
+    color:#444;
+
+    font-size:14px;
+}
+
+.verify b{
+
+    color:#0A2C63;
+}
+
+/* ===========================
+   PRINT
+=========================== */
+
+@page{
+
+    size:190mm 267mm;
+
+    margin:0;
+}
+
+@media print{
+
+    body{
+
+        background:#fff;
+
+        padding:0;
+    }
+
+    .certificate{
+
+        margin:0;
+
+        box-shadow:none;
+    }
+}
+
+/* ==========================
+   CTK ADD-ON CERTIFICATE POLISH
+========================== */
+
+.logo{
+    width:150px;
+    max-width:100%;
+    height:auto;
+    object-fit:contain;
+    object-position:center;
+    image-rendering:auto;
+}
+
+.logo-box{
+    text-align:center;
+    margin-top:6px;
+}
+
+.top{
+    align-items:flex-start;
+}
+
+.qr{
+    margin-left:auto;
+}
+
+.qr img{
+    width:82px;
+    height:82px;
+    object-fit:contain;
+}
+
+.title{
+    text-align:center;
+}
+
+.cards{
+    gap:12px;
+}
+
+.footer{
+    gap:18px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.sign{
+    flex:1;
+}
+
+.seal{
+    flex:0 0 105px;
+    margin:0 auto;
+}
+
+.verify{
+    max-width:100%;
+    word-break:break-word;
+}
+
+/* ==========================
+   CTK ADD-ON FINAL CERTIFICATE FIX
+========================== */
+
+.inner{
+    padding-bottom:14mm;
+}
+
+.logo{
+    width:160px;
+    height:auto;
+    object-fit:contain;
+    object-position:center;
+}
+
+.logo-box,
+.title,
+.desc{
+    text-align:center;
+}
+
+.student-name{
+    max-width:100%;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    font-size:clamp(44px, 10vw, 72px);
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:14px;
+    margin-top:20px;
+}
+
+.cards .card{
+    width:31%;
+    min-height:78px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:12px 10px;
+    border:1px solid #D8E6F5;
+    border-radius:14px;
+    background:#F7FBFF;
+}
+
+.cards .card .icon{
+    display:none;
+}
+
+.cards .card h4{
+    line-height:1.25;
+}
+
+.footer{
+    position:absolute;
+    left:14mm;
+    right:14mm;
+    bottom:43mm;
+    margin-top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.footer .sign{
+    width:38%;
+    flex:0 0 38%;
+}
+
+.seal{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:27mm;
+    width:95px;
+    height:95px;
+    z-index:5;
+    flex:none;
+}
+
+.verify{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:8mm;
+    width:82%;
+    margin:0;
+    padding:10px 14px;
+    font-size:12px;
+    overflow-wrap:anywhere;
+}
+
+.qr img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.pdf-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:10001;
+    border:none;
+    background:#0A2C63;
+    color:#fff;
+    padding:12px 18px;
+    border-radius:10px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+@media print{
+
+    .pdf-btn{
+        display:none;
+    }
+}
+
+/* ==========================
+   CTK ADD-ON ENTERPRISE CERTIFICATE
+========================== */
+
+.logo{
+    width:180px;
+    height:auto;
+    object-fit:contain;
+    object-position:center;
+}
+
+.seal{
+    width:85px;
+    height:85px;
+    bottom:29mm;
+    font-size:13px;
+}
+
+.seal span{
+    font-size:24px;
+}
+
+.sign img{
+    width:135px;
+    height:42px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 4px;
+}
+
+.footer{
+    bottom:41mm;
+}
+
+.footer .sign h4{
+    font-size:14px;
+}
+
+.footer .sign p{
+    font-size:11px;
+    line-height:1.35;
+}
+
+.cards .card{
+    min-height:86px;
+}
+
+.cards .card small{
+    display:block;
+    margin-bottom:5px;
+}
+
+.cards.four .card{
+    width:24%;
+}
+
+/* ==========================
+   CTK ADD-ON NO-OVERLAP FINAL
+========================== */
+
+.inner{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:8px;
+    padding:10mm 12mm 8mm;
+}
+
+.top,
+.logo-box,
+.title,
+.cards,
+.footer,
+.verify{
+    flex-shrink:0;
+}
+
+.logo{
+    width:200px;
+    height:auto;
+    object-fit:contain;
+}
+
+.logo-box{
+    margin-top:0;
+}
+
+.logo-box h1{
+    display:none;
+}
+
+.logo-box h2{
+    font-size:15px;
+    margin-top:4px;
+}
+
+.logo-box p{
+    font-size:10px;
+}
+
+.line{
+    margin:8px auto;
+}
+
+.title{
+    margin-top:0;
+}
+
+.title h1{
+    font-size:46px;
+}
+
+.title h2{
+    font-size:22px;
+}
+
+.title p{
+    font-size:13px;
+    margin-top:8px;
+}
+
+.student-name{
+    max-width:90%;
+    margin:10px auto;
+    font-size:clamp(28px,4vw,56px);
+}
+
+.gold-line{
+    width:70%;
+    margin:7px auto 8px;
+}
+
+.title h3{
+    font-size:20px;
+    margin-top:6px;
+}
+
+.desc{
+    width:88%;
+    font-size:12px;
+    line-height:1.45;
+    margin:7px auto;
+}
+
+.qr img{
+    width:90px;
+    height:90px;
+}
+
+.cards.four{
+    gap:8px;
+    margin-top:4px;
+}
+
+.cards.four .card{
+    width:24%;
+    min-height:62px;
+    padding:8px 6px;
+    background:rgba(247,251,255,.92);
+}
+
+.cards .card h4{
+    font-size:12px;
+    overflow-wrap:anywhere;
+}
+
+.cards .card small{
+    font-size:9px;
+}
+
+.footer{
+    position:static;
+    margin-top:0;
+    align-items:center;
+}
+
+.footer .sign{
+    width:36%;
+    flex:0 0 36%;
+}
+
+.sign img{
+    max-height:50px;
+    width:135px;
+    object-fit:contain;
+}
+
+.seal{
+    position:static;
+    transform:none;
+    width:90px;
+    height:90px;
+    margin:0 auto;
+}
+
+.verify{
+    position:static;
+    transform:none;
+    width:88%;
+    margin:0 auto;
+    padding:8px 12px;
+    font-size:11px;
+    word-break:break-all;
+    overflow-wrap:anywhere;
+}
+
+.pdf-exporting .pdf-btn{
+    display:none;
+}
